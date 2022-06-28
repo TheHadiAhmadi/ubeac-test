@@ -1,0 +1,11 @@
+.storybook/build
+.storybook/styles.css
+.svelte-kit
+build
+node_modules
+package
+.env
+.env.*
+!.env.example
+src/styles.css
+package

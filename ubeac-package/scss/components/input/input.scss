@@ -1,0 +1,13 @@
+.u-input {
+	@extend .form-control;
+}
+
+// TODO
+.u-input-icon {
+	@extend .input-icon-addon;
+}
+
+// TODO
+.u-input-preview {
+	@extend .form-control-plaintext;
+}

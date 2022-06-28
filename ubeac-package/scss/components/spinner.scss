@@ -1,0 +1,17 @@
+@each $key, $value in theme-colors() {
+	.u-spinner-#{$key} {
+		@extend .text-#{$key};
+	}
+}
+
+@each $key in border, grow {
+	.u-spinner-#{$key} {
+		@extend .spinner-#{$key};
+	}
+}
+
+.u-spinner-sm {
+	@extend .spinner-border-sm;
+	width: 1rem !important;
+	height: 1rem !important;
+}
